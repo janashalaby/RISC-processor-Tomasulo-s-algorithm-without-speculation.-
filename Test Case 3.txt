@@ -1,0 +1,8 @@
+ADDI r1,r0,2
+ADDI r2,r0,4
+Label:ADDI r1,r1,2
+BEQ r1,r2,Exit
+BEQ r0,r0,Label
+Exit:ADDI r3,r2,5
+
+
